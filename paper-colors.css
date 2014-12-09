@@ -1,0 +1,442 @@
+/* Copyright (c) 2014 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
+The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
+The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
+Code distributed by Google as part of the polymer project is also
+subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt */
+
+/* Items with [color] attribute will use white
+as default text color, dark color will be added
+when used with light backgrounds. */
+[color] { color: #FFF; }
+
+/* Red */
+[color="red"][shade="50"],
+[color="red"][shade="100"],
+[color="red"][shade="200"],
+[color="red"][shade="300"],
+[color="red"][shade="400"],
+[color="red"][shade="A100"] { color: rgba(0,0,0,0.87); }
+
+[color="red"]               { background-color: #F44336; }
+[color="red"][shade="50"]   { background-color: #FFEBEE; }
+[color="red"][shade="100"]  { background-color: #FFCDD2; }
+[color="red"][shade="200"]  { background-color: #EF9A9A; }
+[color="red"][shade="300"]  { background-color: #E57373; }
+[color="red"][shade="400"]  { background-color: #EF5350; }
+[color="red"][shade="600"]  { background-color: #E53935; }
+[color="red"][shade="700"]  { background-color: #D32F2F; }
+[color="red"][shade="800"]  { background-color: #C62828; }
+[color="red"][shade="900"]  { background-color: #B71C1C; }
+[color="red"][shade="A100"] { background-color: #FF8A80; }
+[color="red"][shade="A200"] { background-color: #FF5252; }
+[color="red"][shade="A400"] { background-color: #FF1744; }
+[color="red"][shade="A700"] { background-color: #D50000; }
+
+/* Pink */
+[color="pink"][shade="50"],
+[color="pink"][shade="100"],
+[color="pink"][shade="200"],
+[color="pink"][shade="300"],
+[color="pink"][shade="400"],
+[color="pink"][shade="A100"] { color: rgba(0,0,0,0.87); }
+
+[color="pink"]               { background-color: #E91E63; }
+[color="pink"][shade="50"]   { background-color: #FCE4EC; }
+[color="pink"][shade="100"]  { background-color: #F8BBD0; }
+[color="pink"][shade="200"]  { background-color: #F48FB1; }
+[color="pink"][shade="300"]  { background-color: #F06292; }
+[color="pink"][shade="400"]  { background-color: #EC407A; }
+[color="pink"][shade="600"]  { background-color: #D81B60; }
+[color="pink"][shade="700"]  { background-color: #C2185B; }
+[color="pink"][shade="800"]  { background-color: #AD1457; }
+[color="pink"][shade="900"]  { background-color: #880E4F; }
+[color="pink"][shade="A100"] { background-color: #FF80AB; }
+[color="pink"][shade="A200"] { background-color: #FF4081; }
+[color="pink"][shade="A400"] { background-color: #F50057; }
+[color="pink"][shade="A700"] { background-color: #C51162; }
+
+/* Purple */
+[color="purple"][shade="50"],
+[color="purple"][shade="100"],
+[color="purple"][shade="200"],
+[color="purple"][shade="A100"] { color: rgba(0,0,0,0.87); }
+
+[color="purple"]               { background-color: #9C27B0; }
+[color="purple"][shade="50"]   { background-color: #F3E5F5; }
+[color="purple"][shade="100"]  { background-color: #E1BEE7; }
+[color="purple"][shade="200"]  { background-color: #CE93D8; }
+[color="purple"][shade="300"]  { background-color: #BA68C8; }
+[color="purple"][shade="400"]  { background-color: #AB47BC; }
+[color="purple"][shade="600"]  { background-color: #8E24AA; }
+[color="purple"][shade="700"]  { background-color: #7B1FA2; }
+[color="purple"][shade="800"]  { background-color: #6A1B9A; }
+[color="purple"][shade="900"]  { background-color: #4A148C; }
+[color="purple"][shade="A100"] { background-color: #EA80FC; }
+[color="purple"][shade="A200"] { background-color: #E040FB; }
+[color="purple"][shade="A400"] { background-color: #D500F9; }
+[color="purple"][shade="A700"] { background-color: #AA00FF; }
+
+/* Deep Purple */
+[color="deep-purple"][shade="50"],
+[color="deep-purple"][shade="100"],
+[color="deep-purple"][shade="200"],
+[color="deep-purple"][shade="A100"] { color: rgba(0,0,0,0.87); }
+
+[color="deep-purple"]               { background-color: #673AB7; }
+[color="deep-purple"][shade="50"]   { background-color: #EDE7F6; }
+[color="deep-purple"][shade="100"]  { background-color: #D1C4E9; }
+[color="deep-purple"][shade="200"]  { background-color: #B39DDB; }
+[color="deep-purple"][shade="300"]  { background-color: #9575CD; }
+[color="deep-purple"][shade="400"]  { background-color: #7E57C2; }
+[color="deep-purple"][shade="600"]  { background-color: #5E35B1; }
+[color="deep-purple"][shade="700"]  { background-color: #512DA8; }
+[color="deep-purple"][shade="800"]  { background-color: #4527A0; }
+[color="deep-purple"][shade="900"]  { background-color: #311B92; }
+[color="deep-purple"][shade="A100"] { background-color: #B388FF; }
+[color="deep-purple"][shade="A200"] { background-color: #7C4DFF; }
+[color="deep-purple"][shade="A400"] { background-color: #651FFF; }
+[color="deep-purple"][shade="A700"] { background-color: #6200EA; }
+
+/* Indigo */
+
+[color="indigo"][shade="50"],
+[color="indigo"][shade="100"],
+[color="indigo"][shade="200"],
+[color="indigo"][shade="A100"] { color: rgba(0,0,0,0.87); }
+
+[color="indigo"]               { background-color: #3F51B5; }
+[color="indigo"][shade="50"]   { background-color: #E8EAF6; }
+[color="indigo"][shade="100"]  { background-color: #C5CAE9; }
+[color="indigo"][shade="200"]  { background-color: #9FA8DA; }
+[color="indigo"][shade="300"]  { background-color: #7986CB; }
+[color="indigo"][shade="400"]  { background-color: #5C6BC0; }
+[color="indigo"][shade="600"]  { background-color: #3949AB; }
+[color="indigo"][shade="700"]  { background-color: #303F9F; }
+[color="indigo"][shade="800"]  { background-color: #283593; }
+[color="indigo"][shade="900"]  { background-color: #1A237E; }
+[color="indigo"][shade="A100"] { background-color: #8C9EFF; }
+[color="indigo"][shade="A200"] { background-color: #536DFE; }
+[color="indigo"][shade="A400"] { background-color: #3D5AFE; }
+[color="indigo"][shade="A700"] { background-color: #304FFE; }
+
+/* Blue */
+[color="blue"][shade="50"],
+[color="blue"][shade="100"],
+[color="blue"][shade="200"],
+[color="blue"][shade="300"],
+[color="blue"][shade="400"],
+[color="blue"][shade="A100"] { color: rgba(0,0,0,0.87); }
+
+[color="blue"]               { background-color: #2196F3; }
+[color="blue"][shade="50"]   { background-color: #E3F2FD; }
+[color="blue"][shade="100"]  { background-color: #BBDEFB; }
+[color="blue"][shade="200"]  { background-color: #90CAF9; }
+[color="blue"][shade="300"]  { background-color: #64B5F6; }
+[color="blue"][shade="400"]  { background-color: #42A5F5; }
+[color="blue"][shade="600"]  { background-color: #1E88E5; }
+[color="blue"][shade="700"]  { background-color: #1976D2; }
+[color="blue"][shade="800"]  { background-color: #1565C0; }
+[color="blue"][shade="900"]  { background-color: #0D47A1; }
+[color="blue"][shade="A100"] { background-color: #82B1FF; }
+[color="blue"][shade="A200"] { background-color: #448AFF; }
+[color="blue"][shade="A400"] { background-color: #2979FF; }
+[color="blue"][shade="A700"] { background-color: #2962FF; }
+
+/* Light Blue */
+[color="light-blue"][shade="50"],
+[color="light-blue"][shade="100"],
+[color="light-blue"][shade="200"],
+[color="light-blue"][shade="300"],
+[color="light-blue"][shade="400"],
+[color="light-blue"][shade="A100"],
+[color="light-blue"][shade="A200"],
+[color="light-blue"][shade="A400"] { color: rgba(0,0,0,0.87); }
+
+[color="light-blue"]               { background-color: #03A9F4; }
+[color="light-blue"][shade="50"]   { background-color: #E1F5FE; }
+[color="light-blue"][shade="100"]  { background-color: #B3E5FC; }
+[color="light-blue"][shade="200"]  { background-color: #81D4FA; }
+[color="light-blue"][shade="300"]  { background-color: #4FC3F7; }
+[color="light-blue"][shade="400"]  { background-color: #29B6F6; }
+[color="light-blue"][shade="600"]  { background-color: #039BE5; }
+[color="light-blue"][shade="700"]  { background-color: #0288D1; }
+[color="light-blue"][shade="800"]  { background-color: #0277BD; }
+[color="light-blue"][shade="900"]  { background-color: #01579B; }
+[color="light-blue"][shade="A100"] { background-color: #80D8FF; }
+[color="light-blue"][shade="A200"] { background-color: #40C4FF; }
+[color="light-blue"][shade="A400"] { background-color: #00B0FF; }
+[color="light-blue"][shade="A700"] { background-color: #0091EA; }
+
+/* Cyan */
+[color="cyan"][shade="50"],
+[color="cyan"][shade="100"],
+[color="cyan"][shade="200"],
+[color="cyan"][shade="300"],
+[color="cyan"][shade="400"],
+[color="cyan"][shade="A100"],
+[color="cyan"][shade="A200"],
+[color="cyan"][shade="A400"],
+[color="cyan"][shade="A700"] { color: rgba(0,0,0,0.87); }
+
+[color="cyan"]               { background-color: #00BCD4; }
+[color="cyan"][shade="50"]   { background-color: #E0F7FA; }
+[color="cyan"][shade="100"]  { background-color: #B2EBF2; }
+[color="cyan"][shade="200"]  { background-color: #80DEEA; }
+[color="cyan"][shade="300"]  { background-color: #4DD0E1; }
+[color="cyan"][shade="400"]  { background-color: #26C6DA; }
+[color="cyan"][shade="600"]  { background-color: #00ACC1; }
+[color="cyan"][shade="700"]  { background-color: #0097A7; }
+[color="cyan"][shade="800"]  { background-color: #00838F; }
+[color="cyan"][shade="900"]  { background-color: #006064; }
+[color="cyan"][shade="A100"] { background-color: #84FFFF; }
+[color="cyan"][shade="A200"] { background-color: #18FFFF; }
+[color="cyan"][shade="A400"] { background-color: #00E5FF; }
+[color="cyan"][shade="A700"] { background-color: #00B8D4; }
+
+/* Teal */
+[color="teal"][shade="50"],
+[color="teal"][shade="100"],
+[color="teal"][shade="200"],
+[color="teal"][shade="300"],
+[color="teal"][shade="400"],
+[color="teal"][shade="A100"],
+[color="teal"][shade="A200"],
+[color="teal"][shade="A400"],
+[color="teal"][shade="A700"] { color: rgba(0,0,0,0.87); }
+
+[color="teal"]               { background-color: #009688; }
+[color="teal"][shade="50"]   { background-color: #E0F2F1; }
+[color="teal"][shade="100"]  { background-color: #B2DFDB; }
+[color="teal"][shade="200"]  { background-color: #80CBC4; }
+[color="teal"][shade="300"]  { background-color: #4DB6AC; }
+[color="teal"][shade="400"]  { background-color: #26A69A; }
+[color="teal"][shade="600"]  { background-color: #00897B; }
+[color="teal"][shade="700"]  { background-color: #00796B; }
+[color="teal"][shade="800"]  { background-color: #00695C; }
+[color="teal"][shade="900"]  { background-color: #004D40; }
+[color="teal"][shade="A100"] { background-color: #A7FFEB; }
+[color="teal"][shade="A200"] { background-color: #64FFDA; }
+[color="teal"][shade="A400"] { background-color: #1DE9B6; }
+[color="teal"][shade="A700"] { background-color: #00BFA5; }
+
+/* Green */
+[color="green"][shade="50"],
+[color="green"][shade="100"],
+[color="green"][shade="200"],
+[color="green"][shade="300"],
+[color="green"][shade="400"],
+[color="green"][shade="A100"],
+[color="green"][shade="A200"],
+[color="green"][shade="A400"],
+[color="green"][shade="A700"] { color: rgba(0,0,0,0.87); }
+
+[color="green"]               { background-color: #4CAF50; }
+[color="green"][shade="50"]   { background-color: #E8F5E9; }
+[color="green"][shade="100"]  { background-color: #C8E6C9; }
+[color="green"][shade="200"]  { background-color: #A5D6A7; }
+[color="green"][shade="300"]  { background-color: #81C784; }
+[color="green"][shade="400"]  { background-color: #66BB6A; }
+[color="green"][shade="600"]  { background-color: #43A047; }
+[color="green"][shade="700"]  { background-color: #388E3C; }
+[color="green"][shade="800"]  { background-color: #2E7D32; }
+[color="green"][shade="900"]  { background-color: #1B5E20; }
+[color="green"][shade="A100"] { background-color: #B9F6CA; }
+[color="green"][shade="A200"] { background-color: #69F0AE; }
+[color="green"][shade="A400"] { background-color: #00E676; }
+[color="green"][shade="A700"] { background-color: #00C853; }
+
+/* Light Green */
+[color="light-green"] {
+  background-color: #8BC34A;
+  color: rgba(0,0,0,0.87);
+}
+
+[color="light-green"][shade="800"],
+[color="light-green"][shade="900"]  { color: #FFF; }
+
+[color="light-green"][shade="50"]   { background-color: #F1F8E9; }
+[color="light-green"][shade="100"]  { background-color: #DCEDC8; }
+[color="light-green"][shade="200"]  { background-color: #C5E1A5; }
+[color="light-green"][shade="300"]  { background-color: #AED581; }
+[color="light-green"][shade="400"]  { background-color: #9CCC65; }
+[color="light-green"][shade="600"]  { background-color: #7CB342; }
+[color="light-green"][shade="700"]  { background-color: #689F38; }
+[color="light-green"][shade="800"]  { background-color: #558B2F; }
+[color="light-green"][shade="900"]  { background-color: #33691E; }
+[color="light-green"][shade="A100"] { background-color: #CCFF90; }
+[color="light-green"][shade="A200"] { background-color: #B2FF59; }
+[color="light-green"][shade="A400"] { background-color: #76FF03; }
+[color="light-green"][shade="A700"] { background-color: #64DD17; }
+
+/* Lime */
+[color="lime"] {
+  background-color: #CDDC39;
+  color: rgba(0,0,0,0.87);
+}
+
+[color="lime"][shade="900"]  { color: #FFF; }
+
+[color="lime"][shade="50"]   { background-color: #F9FBE7; }
+[color="lime"][shade="100"]  { background-color: #F0F4C3; }
+[color="lime"][shade="200"]  { background-color: #E6EE9C; }
+[color="lime"][shade="300"]  { background-color: #DCE775; }
+[color="lime"][shade="400"]  { background-color: #D4E157; }
+[color="lime"][shade="600"]  { background-color: #C0CA33; }
+[color="lime"][shade="700"]  { background-color: #AFB42B; }
+[color="lime"][shade="800"]  { background-color: #9E9D24; }
+[color="lime"][shade="900"]  { background-color: #827717; }
+[color="lime"][shade="A100"] { background-color: #F4FF81; }
+[color="lime"][shade="A200"] { background-color: #EEFF41; }
+[color="lime"][shade="A400"] { background-color: #C6FF00; }
+[color="lime"][shade="A700"] { background-color: #AEEA00; }
+
+/* Yellow */
+[color="yellow"] {
+  background-color: #FFEB3B;
+  color: rgba(0,0,0,0.87);
+}
+
+[color="yellow"][shade="50"]   { background-color: #FFFDE7; }
+[color="yellow"][shade="100"]  { background-color: #FFF9C4; }
+[color="yellow"][shade="200"]  { background-color: #FFF59D; }
+[color="yellow"][shade="300"]  { background-color: #FFF176; }
+[color="yellow"][shade="400"]  { background-color: #FFEE58; }
+[color="yellow"][shade="600"]  { background-color: #FDD835; }
+[color="yellow"][shade="700"]  { background-color: #FBC02D; }
+[color="yellow"][shade="800"]  { background-color: #F9A825; }
+[color="yellow"][shade="900"]  { background-color: #F57F17; }
+[color="yellow"][shade="A100"] { background-color: #FFFF8D; }
+[color="yellow"][shade="A200"] { background-color: #FFFF00; }
+[color="yellow"][shade="A400"] { background-color: #FFEA00; }
+[color="yellow"][shade="A700"] { background-color: #FFD600; }
+
+/* Amber */
+[color="amber"] {
+  background-color: #FFC107;
+  color: rgba(0,0,0,0.87);
+}
+
+[color="amber"][shade="50"]   { background-color: #FFF8E1; }
+[color="amber"][shade="100"]  { background-color: #FFECB3; }
+[color="amber"][shade="200"]  { background-color: #FFE082; }
+[color="amber"][shade="300"]  { background-color: #FFD54F; }
+[color="amber"][shade="400"]  { background-color: #FFCA28; }
+[color="amber"][shade="600"]  { background-color: #FFB300; }
+[color="amber"][shade="700"]  { background-color: #FFA000; }
+[color="amber"][shade="800"]  { background-color: #FF8F00; }
+[color="amber"][shade="900"]  { background-color: #FF6F00; }
+[color="amber"][shade="A100"] { background-color: #FFE57F; }
+[color="amber"][shade="A200"] { background-color: #FFD740; }
+[color="amber"][shade="A400"] { background-color: #FFC400; }
+[color="amber"][shade="A700"] { background-color: #FFAB00; }
+
+/* Orange */
+[color="orange"] {
+  background-color: #FF9800;
+  color: rgba(0,0,0,0.87);
+}
+
+[color="orange"][shade="800"],
+[color="orange"][shade="900"]  { color: #FFF; }
+
+[color="orange"][shade="50"]   { background-color: #FFF3E0; }
+[color="orange"][shade="100"]  { background-color: #FFE0B2; }
+[color="orange"][shade="200"]  { background-color: #FFCC80; }
+[color="orange"][shade="300"]  { background-color: #FFB74D; }
+[color="orange"][shade="400"]  { background-color: #FFA726; }
+[color="orange"][shade="600"]  { background-color: #FB8C00; }
+[color="orange"][shade="700"]  { background-color: #F57C00; }
+[color="orange"][shade="800"]  { background-color: #EF6C00; }
+[color="orange"][shade="900"]  { background-color: #E65100; }
+[color="orange"][shade="A100"] { background-color: #FFD180; }
+[color="orange"][shade="A200"] { background-color: #FFAB40; }
+[color="orange"][shade="A400"] { background-color: #FF9100; }
+[color="orange"][shade="A700"] { background-color: #FF6D00; }
+
+/* Deep Orange */
+[color="deep-orange"][shade="50"],
+[color="deep-orange"][shade="100"],
+[color="deep-orange"][shade="200"],
+[color="deep-orange"][shade="300"],
+[color="deep-orange"][shade="400"],
+[color="deep-orange"][shade="A100"],
+[color="deep-orange"][shade="A200"] { color: rgba(0,0,0,0.87); }
+
+[color="deep-orange"]               { background-color: #FF5722; }
+[color="deep-orange"][shade="50"]   { background-color: #FBE9E7; }
+[color="deep-orange"][shade="100"]  { background-color: #FFCCBC; }
+[color="deep-orange"][shade="200"]  { background-color: #FFAB91; }
+[color="deep-orange"][shade="300"]  { background-color: #FF8A65; }
+[color="deep-orange"][shade="400"]  { background-color: #FF7043; }
+[color="deep-orange"][shade="600"]  { background-color: #F4511E; }
+[color="deep-orange"][shade="700"]  { background-color: #E64A19; }
+[color="deep-orange"][shade="800"]  { background-color: #D84315; }
+[color="deep-orange"][shade="900"]  { background-color: #BF360C; }
+[color="deep-orange"][shade="A100"] { background-color: #FF9E80; }
+[color="deep-orange"][shade="A200"] { background-color: #FF6E40; }
+[color="deep-orange"][shade="A400"] { background-color: #FF3D00; }
+[color="deep-orange"][shade="A700"] { background-color: #DD2C00; }
+
+/* Brown */
+[color="brown"][shade="50"],
+[color="brown"][shade="100"],
+[color="brown"][shade="200"] { color: rgba(0,0,0,0.87); }
+
+[color="brown"]               { background-color: #795548; }
+[color="brown"][shade="50"]   { background-color: #EFEBE9; }
+[color="brown"][shade="100"]  { background-color: #D7CCC8; }
+[color="brown"][shade="200"]  { background-color: #BCAAA4; }
+[color="brown"][shade="300"]  { background-color: #A1887F; }
+[color="brown"][shade="400"]  { background-color: #8D6E63; }
+[color="brown"][shade="600"]  { background-color: #6D4C41; }
+[color="brown"][shade="700"]  { background-color: #5D4037; }
+[color="brown"][shade="800"]  { background-color: #4E342E; }
+[color="brown"][shade="900"]  { background-color: #3E2723; }
+
+/* Grey */
+[color="grey"] {
+  background-color: #9E9E9E;
+  color: rgba(0,0,0,0.87);
+}
+
+[color="grey"][shade="600"],
+[color="grey"][shade="700"],
+[color="grey"][shade="800"],
+[color="grey"][shade="900"] { color: #FFF; }
+
+[color="grey"][shade="50"]   { background-color: #FAFAFA; }
+[color="grey"][shade="100"]  { background-color: #F5F5F5; }
+[color="grey"][shade="200"]  { background-color: #EEEEEE; }
+[color="grey"][shade="300"]  { background-color: #E0E0E0; }
+[color="grey"][shade="400"]  { background-color: #BDBDBD; }
+[color="grey"][shade="600"]  { background-color: #757575; }
+[color="grey"][shade="700"]  { background-color: #616161; }
+[color="grey"][shade="800"]  { background-color: #424242; }
+[color="grey"][shade="900"]  { background-color: #212121; }
+
+/* Blue-Grey */
+[color="blue-grey"][shade="50"],
+[color="blue-grey"][shade="100"],
+[color="blue-grey"][shade="200"],
+[color="blue-grey"][shade="300"] { color: rgba(0,0,0,0.87); }
+
+[color="blue-grey"]               { background-color: #607D8B; }
+[color="blue-grey"][shade="50"]   { background-color: #ECEFF1; }
+[color="blue-grey"][shade="100"]  { background-color: #CFD8DC; }
+[color="blue-grey"][shade="200"]  { background-color: #B0BEC5; }
+[color="blue-grey"][shade="300"]  { background-color: #90A4AE; }
+[color="blue-grey"][shade="400"]  { background-color: #78909C; }
+[color="blue-grey"][shade="600"]  { background-color: #546E7A; }
+[color="blue-grey"][shade="700"]  { background-color: #455A64; }
+[color="blue-grey"][shade="800"]  { background-color: #37474F; }
+[color="blue-grey"][shade="900"]  { background-color: #263238; }
+
+/* Black */
+[color="black"] { background-color: #000; }
+
+/* White */
+[color="white"] {
+  background-color: #FFF;
+  color: rgba(0,0,0,0.87);;
+}
