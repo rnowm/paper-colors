@@ -1,5 +1,5 @@
-paper-color
-===========
+paper-colors
+============
 
 Set of colors used in Material Design.
 
